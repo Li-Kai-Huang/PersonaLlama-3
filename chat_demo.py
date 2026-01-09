@@ -8,6 +8,12 @@ model, tokenizer = FastLanguageModel.from_pretrained(
     model_name = "mixed_personality_v4_final", # 指向你合併後的模型路徑
     load_in_4bit = True,
 )
+'''
+model, tokenizer = FastLanguageModel.from_pretrained(
+    model_name = "Li-Kai-Huang/Llama-3-8B-Multi-Persona-Ray", 
+    load_in_4bit = True,
+)
+'''
 FastLanguageModel.for_inference(model)
 
 # 2. 定義預測函式
