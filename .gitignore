@@ -35,3 +35,4 @@ Miniconda3*.sh
 
 # Data (if they are too large)
 *.jsonl
+!data/data_example.jsonl
