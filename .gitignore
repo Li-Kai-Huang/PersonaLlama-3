@@ -1,0 +1,37 @@
+# Models and Weights
+outputs/
+outputs_simp/
+checkpoint-*/
+outputs/
+outputs_simp/
+outputs_v2_3epochs/
+mixed_personality_v3_final/
+mixed_personality_v4_final/
+nlp_final_model/
+simp_llama_model/
+simp_llama_model_2/
+checkpoint-*/
+*_final/
+
+
+*.pt
+*.bin
+*.gguf
+*.deb
+*.pth
+
+# Environment & Cache
+unsloth_compiled_cache/
+__pycache__/
+venv/
+.env
+
+__pycache__/
+.ipynb_checkpoints/
+google-chrome-stable*
+
+# Installers
+Miniconda3*.sh
+
+# Data (if they are too large)
+*.jsonl
